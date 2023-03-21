@@ -1,0 +1,50 @@
+/* ---- By Lila Codes, ne pas retirer le crédit ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Fleur+De+Leah&family=Nunito&family=Philosopher&family=Unica+One&display=swap');
+
+/* ---- Root (les bases de votre css) ---- */
+:root {
+--font1: Philosopher; /* Police Titre */
+--font2: Nunito; /* Police Général */
+--emeraude: #6BA24D; /* vert foncé */
+--limelight: #B1D767; /* vert pâle */
+--affair: #744593; /* mauve foncé */
+--lilas: #D2B1DE; /* mauve pâle */
+--blanc: #FAFAFA; /* Principalement pour bordures */
+--gris: #EBEBEB; /* fond de contenu */
+--transparent1: #ebebeb82; /* moyen */
+--transparent2: #3838382b;
+--bordout:#FFF;
+--textColor: #333333;
+--textColorAccent: #000;
+--degradel1: linear-gradient(-45deg, var(--affair), var(--lilas)); /* dégrader */
+--degradel2: linear-gradient(90deg, rgba(116,69,147,0.5) 0%, rgba(210,177,222,0.5) 100%); /* dégrader transparent */
+}
+
+.ff_cadreout { text-align: justify; width: auto; border-radius: 10px; padding: 10px; line-height: 22px;
+background: var(--gris); border: 1px solid var(--blanc); outline: 1px solid var(--blanc); outline-offset: -6px; font-family: var(--font2);}
+
+.ff_titreout { background: var(--blanc); border-radius: 10px; padding: 7px; box-sizing: border-box; margin: 5px;}
+
+.ff_titreh { color: var(--textColor); font-size: 28px; text-align: center; border-radius: 5px; padding: 4px; background: var(--blanc); 
+font-family: var(--font1); line-height: initial;}
+
+.ff_sepa { font-size: 11px; padding: 10px 49px 10px 49px; border-radius: 7px; line-height: 15px; box-sizing: border-box; background: var(--transparent1);
+color: var(--textColor); margin: 10px; font-style: italic;}
+
+.ff_ttsous { font-size: 16px; font-family: var(--font1); font-weight: bolder; letter-spacing: 2px; background: var(--degradel2); margin-top: 2px;
+margin-bottom: 2px; display: inline-block; border-radius: 5px; padding-left: 6px; padding-right: 6px; border: 1px solid var(--gris);
+outline: 1px solid var(--gris); outline-offset: -4px; color: var(--textColorAccent); padding-top: 6px; padding-bottom: 6px;}
+
+.ff_textout { background: var(--blanc); padding: 20px; color: var(--textColor); border-radius: 10px; margin: 5px; font-size: 13px;}
+
+.ff_ttsous span { background: var(--transparent2); border-radius: 6px; padding: 3px; margin-right: 4px; font-size: 16px;}
+
+.ff_annexel { background: var(--gris); padding: 10px; border-radius: 5px; outline: 1px solid var(--blanc); outline-offset: -4px;}
+
+.ff_img1 { width: 50%; padding: 5px; box-sizing: border-box; border-radius: 10px; margin: 0 0 7px; height: 158px; object-fit: cover;}
+
+.ff_creditout { background: var(--transparent2); border-radius: 7px; margin: 7px 0 0; text-align: center; font-size: 10px; color: var(--textColor); 
+font-weight: 600; line-height: 20px; letter-spacing: 1px; margin-top: 20px;}
+
+.ff_creditl { font-family: 'Philosopher', cursive;}
